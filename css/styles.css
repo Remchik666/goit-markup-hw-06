@@ -80,7 +80,7 @@ button {
 
 @media screen and (min-width: 1158px) {
     .container {
-        width: 1440px;
+        width: 1158px;
         padding: 0 15px;
     }
 }
@@ -336,6 +336,11 @@ button {
 
 .mob-address {
     margin-bottom: 48px;
+    font-style: normal;
+}
+
+.mob-address-link.current {
+    color: #4d5ae5;
 }
 
 .mob-address-list {
@@ -957,7 +962,7 @@ button {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: start;
-        padding-left: 92px;
+        padding-left: 108px;
     }
 
     .logo-container {
@@ -1000,10 +1005,16 @@ button {
         align-items: baseline;
         justify-content: center;
         flex-wrap: nowrap;
+        padding: 0 15px;
     }
 
     .logo-container {
         margin-right: 120px;
+        margin-bottom: 0;
+    }
+
+    .social-container {
+        margin-bottom: 0;
     }
 
     .subscribe-container {
